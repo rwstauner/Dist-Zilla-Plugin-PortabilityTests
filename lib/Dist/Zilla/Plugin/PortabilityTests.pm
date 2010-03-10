@@ -36,6 +36,6 @@ ___[ xt/release/portability.t ]___
 use Test::More;
 
 eval "use Test::Portability::Files";
-plan skip_all => "Test::Kwalitee required for testing kwalitee"
+plan skip_all => "Test::Portability::Files required for testing portability"
   if $@;
 run_tests();
