@@ -5,7 +5,6 @@ use warnings;
 package Dist::Zilla::Plugin::PortabilityTests;
 # ABSTRACT: release tests for portability
 use Moose;
-use Test::Portability::Files ();
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
 __PACKAGE__->meta->make_immutable;
